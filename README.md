@@ -40,6 +40,10 @@ Help
 ```
 !help
 ```
+How change the message
+```
+Message only can modify in the code, so if you want a command, you can add one
+```
 
 ## How works
 When people send any message on #honeypot, bot bans the author message. 
