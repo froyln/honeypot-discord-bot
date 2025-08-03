@@ -36,10 +36,6 @@ Remove honeypot channel
 ```
 !disable_honeypot
 ```
-Modify honeypot message
-```
-!honeypot_message <NewMessage>
-```
 Help
 ```
 !help
