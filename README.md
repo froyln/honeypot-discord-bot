@@ -38,7 +38,7 @@ Remove honeypot channel
 ```
 Help
 ```
-!help
+!honeypot_help
 ```
 How change the message
 ```
