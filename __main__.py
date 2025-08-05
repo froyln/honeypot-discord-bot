@@ -109,4 +109,12 @@ async def disable_honeypot(ctx):
         await ctx.send("No hay honeypot configurado en este servidor")
 
 
+@bot.command()
+@commands.has_permissions(administrator=True)
+async def honeypot_help(ctx):
+    await ctx.send(
+        f"**Add honeypot channel**\n{PREFIX}honeypot #channel\n\n**Remove honeypot**\n{PREFIX}disable_honeypot"
+    )
+
+
 bot.run(BOT_TOKEN)
