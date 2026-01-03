@@ -2,8 +2,9 @@
 Honeypot bot, works with multiple server. 
 
 > [!WARNING]
-> The discord bot use .json
-> Multiple servers require multiple settings.
+> The discord bot use .json. Multiple servers require multiple settings.
+>
+> That's really bad if you want to use it on many servers.
 
 ## Dependencies
 [Python ](https://www.python.org) versions 3.9+. Other versions and implementations may or may not work correctly.
